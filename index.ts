@@ -8,8 +8,8 @@ interface Todo {
 }  //defines structure of an object
 
 axios.get(url).then(res =>{
-    const todo = res.data as Todo;
-    
+    $ touch .gitignoreconst todo = res.data as Todo;
+
     const id = todo.id
     const title = todo.todo
     const complete = todo.completed
